@@ -15,3 +15,11 @@ I'm a beginner Frontend developer with no work experience. I studied independent
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+## Codewars:
+
+![Codewars](https://www.codewars.com/users/lielsmoon/badges/large)
+
+## Level of English:
+
+Pre-Intermediate
