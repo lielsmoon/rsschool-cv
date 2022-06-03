@@ -1,2 +1,3 @@
 # rsschool-cv
-My CV
+
+https://lielsmoon.github.io/rsschool-cv/cv
