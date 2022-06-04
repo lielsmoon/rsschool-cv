@@ -1,1 +1,1 @@
-https://Glielsmoon.github.io/rsschool-cv/
+https://lielsmoon.github.io/rsschool-cv/
