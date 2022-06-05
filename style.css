@@ -14,19 +14,22 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: Montserrat, sans-serif;
     margin: 0;
     background-color: white;
+    min-height: 100vh;
+    padding: 0;
 }
 
 .header {
     grid-template-columns: 50% 50%;
     display: grid;
 }
-/* .container {
-    height: 100vh;
-} */
 
 .data {
     width: 60%;
@@ -62,11 +65,12 @@ body {
     margin-top: 28px;
 } 
 
-.social {
+.nav-link {
     color: black;
+    transition: .3s;
 }
 
-.social:hover {
+.nav-link:hover {
     color: #4d6459;
 }
 
@@ -92,13 +96,13 @@ body {
     width: 50%;
 }
 
-.about-me {
+.small-container{
     width: 60%;
     margin: 30% auto;
-    height: 100vh;
+    height: 80vh;
 }
 
-.about-me_title {
+.title {
     font-family: Cormorant Garamond, sans-serif;
     font-size: 40px;
     font-weight: 500;
@@ -106,20 +110,26 @@ body {
     
 }
 
-.about-me_title {
+.title {
     display: flex;
     flex-direction: row;
 }
-.about-me_title:after{
+.title:after{
     content: "";
     flex: 1 1;
     border-bottom: 1px solid;
     margin: auto;
 }
 
-.about-me_title:after {
+.title:after {
     margin-left: 10px
 }
-.about-me_dscription {
-   line-height: 1.8;
+.description {
+   line-height: 2;
+   font-size: 16px;
 }
+
+.english-skills {
+    height: auto;
+}
+
