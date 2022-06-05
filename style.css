@@ -133,3 +133,8 @@ body {
     height: auto;
 }
 
+.footer {
+    width: 50%;
+    text-align: center;
+    color: #4d6459;
+}
