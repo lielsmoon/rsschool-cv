@@ -1,3 +1,125 @@
-.img_avatar {
-    width: 300px;
+@font-face {
+    font-family: 'Cormorant Garamond';
+     src: url("assets/fonts/Cormorant_Garamond.zip");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url("assets/fonts/Montserrat.zip");
+} 
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+/* .container {
+    height: 100vh;
+} */
+
+.data {
+    width: 60%;
+    margin: 19% auto;
+    height: 100vh;
+}
+
+.data-name {
+    font-family: Cormorant Garamond, sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.data-profession {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.width-left {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+
+.width-right { 
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.socials {
+    margin-top: 28px;
+} 
+
+.social {
+    color: black;
+}
+
+.social:hover {
+    color: #4d6459;
+}
+
+.container-photo {
+    background-color: #8ea69b;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    right: 0; 
+    top: 0; 
+}
+
+.photo {
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.container {
+    width: 50%;
+}
+
+.about-me {
+    width: 60%;
+    margin: 30% auto;
+    height: 100vh;
+}
+
+.about-me_title {
+    font-family: Cormorant Garamond, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+
+.about-me_title {
+    display: flex;
+    flex-direction: row;
+}
+.about-me_title:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.about-me_title:after {
+    margin-left: 10px
+}
+.about-me_dscription {
+   line-height: 1.8;
 }
